@@ -33,7 +33,10 @@ a:focus {
         common css end
 ================================*/
 
+.carousel-item img{
 
+  height: 790px;
+}
  .custom-indi{
 
   bottom: 40px;
@@ -49,7 +52,7 @@ a:focus {
 }
 
 .custom-indi .active{
-  background-color: #80FF80;
+  background-color: #00FF00;
   
 } 
 
@@ -66,5 +69,22 @@ a:focus {
 
 .custom-text{
 
-  bottom: 43%;
+  bottom: 40%;
+}
+
+.custom-text h1{
+
+  padding-bottom: 50px;
+  font-size: 65px;
+  font-weight: 800;
+  color: #FF0000;
+  text-transform: uppercase;
+}
+
+.custom-text p{
+
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFF00;
+  line-height: 30px;
 }
